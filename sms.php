@@ -13,3 +13,4 @@ $soapOptions = array(
 $client=new SoapClient($url,$soapOptions);
 $message=$client->send_message();
 print_r($message);
+print_r($message);
